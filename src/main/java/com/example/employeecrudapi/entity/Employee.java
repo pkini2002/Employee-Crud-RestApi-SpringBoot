@@ -45,6 +45,10 @@ public class Employee {
         return lastName;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -57,6 +61,9 @@ public class Employee {
         this.email = email;
     }
 
+    public void setId(int i) {
+        this.id=id;
+    }
 
     // Define toString
 
@@ -68,4 +75,5 @@ public class Employee {
                 ", email='" + email + '\'' +
                 '}';
     }
+
 }
