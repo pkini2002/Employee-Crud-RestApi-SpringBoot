@@ -61,8 +61,8 @@ public class Employee {
         this.email = email;
     }
 
-    public void setId(int i) {
-        this.id=id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     // Define toString
